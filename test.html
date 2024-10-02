@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            Header 
+        </div>
+    </header>
+    <section>
+        <div class="col1">
+            Col1
+        </div>
+        <div class="col2">
+            Col2
+        </div>
+    </section>
+    <footer>
+        <div>
+            Footer 
+        </div>
+    </footer>
+    <style>
+        header div{
+            background: blue;
+            margin-bottom: 10px;
+            height: 50px;
+        }
+        section{
+            display: flow-root;
+        }
+        .col1{
+            background: green;
+            width: 50%;
+            height: 200px;
+            float: left;
+        }
+        .col2{
+            background: gray;
+            width: 40%;
+            height: 200px;
+            float: right;
+        }
+        footer div{
+            margin-top: 10px;
+            background: blueviolet;
+            height: 50px;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</body>
+</html>
