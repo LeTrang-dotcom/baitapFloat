@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="rectangle">
+            <div class="box-1 square"></div>
+            <div class="box-2 square"></div>
+        </div>
+        <div class="rectangle">
+            <div class="box-1 square"></div>
+            <div class="box-2 square"></div>
+        </div>
+        <div class="rectangle">
+            <div class="box-1 square"></div>
+            <div class="box-2 square"></div>
+        </div>
+        <div class="rectangle">
+            <div class="box-1 square"></div>
+        </div>
+    </div>
+    <style>
+        .wrapper{
+            height: 110px;
+        }
+        .rectangle{
+            width: 110px;
+            height: 110px;
+            display: block;
+            position: relative;
+            float: inline-start;
+        }
+        .square{
+            width: 55px;
+            height: 55px;
+            background: #F2994A;
+        }
+        .box-1{
+            border-radius: 15px 15px 0 0;
+        }
+        .box-2{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            border-radius: 0 0 15px 15px;
+        }
+    </style>
+</body>
+</html>
